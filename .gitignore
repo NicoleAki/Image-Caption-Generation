@@ -10,7 +10,9 @@
 
 # Raw + processed data
 #data/raw/
-data/processed/
+!data/processed/
+!data/processed/*.csv
+!data/processed/*.pkl
 
 # Checkpoints / notebooks cache
 .ipynb_checkpoints/
@@ -39,8 +41,3 @@ __pycache__/
 # Temp files
 *.tmp
 *.DS_Store
-
-# Large data files
-data/processed/full_dataset.csv
-data/processed/full_image_inventory.csv
-data/processed/*.csv

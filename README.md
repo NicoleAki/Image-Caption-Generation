@@ -35,14 +35,14 @@ models_pt/*.pt
 ## Data Evaluation/Testing witth new data
 
 # 1. Process new test images
-python src/test_processor.py \
+python src/preprocessing.py \
     --test_image_dir data/raw/evaluation_images \
     --vocab_file data/processed/vocabulary.pkl \
     --output_dir data/test_processed
 
 # 2. Generate captions using your trained model
 python src/inference.py \
-    --model_path models/best_cnn_lstm_word2vec.h5 \
+    --model_path models/best_cnn_lstm.h5 \
     --test_data data/test_processed/test_images.csv \
     --vocab_file data/processed/vocabulary.pkl \
     --output results/evaluation_captions.csv \
