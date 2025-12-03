@@ -1,0 +1,52 @@
+======================================================================
+PREPROCESSING REPORT
+======================================================================
+
+CONFIGURATION:
+  Image size: 224×224
+  Max caption length: 50 words
+  Vocabulary size: 10000
+
+DATASET STATISTICS:
+  Total matched samples: 466,387
+  Art styles: 27
+  Emotions: 9
+
+  Caption statistics:
+    Mean length: 15.59 words
+    Median length: 14 words
+    Max length: 50 words
+
+  Style distribution (top 10):
+    Impressionism                 : 73,892 (15.84%)
+    Realism                       : 59,242 (12.70%)
+    Romanticism                   : 40,178 ( 8.61%)
+    Expressionism                 : 38,976 ( 8.36%)
+    Post_Impressionism            : 36,608 ( 7.85%)
+    Symbolism                     : 27,193 ( 5.83%)
+    Art_Nouveau_Modern            : 24,975 ( 5.35%)
+    Baroque                       : 23,464 ( 5.03%)
+    Abstract_Expressionism        : 17,112 ( 3.67%)
+    Northern_Renaissance          : 14,155 ( 3.04%)
+
+VOCABULARY:
+  Raw unique words: 57,405
+  Limited to: 10,000
+  Coverage: 96.33%
+  Special tokens: <PAD>, <START>, <END>, <UNK>
+
+SUBSETS CREATED:
+  subset_1000: 989 samples
+    - subset_1000_train.csv: 70%
+    - subset_1000_val.csv: 15%
+    - subset_1000_test.csv: 15%
+  subset_5000: 4,984 samples
+    - subset_5000_train.csv: 70%
+    - subset_5000_val.csv: 15%
+    - subset_5000_test.csv: 15%
+  subset_10000: 9,986 samples
+    - subset_10000_train.csv: 70%
+    - subset_10000_val.csv: 15%
+    - subset_10000_test.csv: 15%
+
+FILES CREATED:

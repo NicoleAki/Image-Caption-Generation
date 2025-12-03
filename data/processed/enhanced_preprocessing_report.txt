@@ -1,0 +1,26 @@
+======================================================================
+ENHANCED PREPROCESSING REPORT
+======================================================================
+
+VOCABULARY STRATEGY:
+  Total vocabulary size: 3,020
+  Stop words preserved: 73
+  Minimum frequency threshold: 5
+  Text coverage: 92.28%
+  <UNK> coverage: 7.72%
+
+KEY FEATURES:
+  1. Stop words preserved for grammatical correctness
+  2. Rare words (frequency ≤5) mapped to <UNK>
+  3. Personal/emotional bigrams preserved ('looks like', 'makes me')
+  4. Natural language patterns maintained
+
+DATASET STATISTICS:
+  Total matched samples: 18,381
+  Art styles: 3
+  Emotions: 9
+
+SUBSETS CREATED:
+  subset_1000: 999 samples
+  subset_5000: 4,999 samples
+  subset_10000: 9,999 samples
